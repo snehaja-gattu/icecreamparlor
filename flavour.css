@@ -1,0 +1,39 @@
+body{
+    background-image: linear-gradient(#ff99cc,#ff9999);
+    height: 46vh;
+    background-size: cover;
+    background-position: center;
+}
+button:hover{
+    border: 1px black;
+    background-color: orange;
+    padding: 10px 30px;
+    color:black;
+    text-decoration: none;
+}
+button{
+    border-radius: 20px;
+    border: 1px solid #FF482B;
+    background-color: #FF482B;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    transition: tranform 80ms ease-in;
+}
+button:active{
+    transform: scale(0.95);
+}
+button:focus{
+    outline: none;
+}
+button.ghost{
+    background-color: transparent;
+    border-color: #FFFFFF;
+}
+.item{
+    
+}
